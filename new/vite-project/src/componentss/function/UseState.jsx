@@ -1,7 +1,5 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import NavBar from './navbar';
-
 var UseEffect = () => {
   //   var [text, setText] = useState("kongu");
   //   useEffect(()=>{
