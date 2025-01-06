@@ -1,0 +1,40 @@
+/* General container styling */
+.signup-container {
+  max-width: 400px; /* Restrict maximum width for the form */
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+  background-color: #f9f9f9; /* Light background for better readability */
+  font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+/* Styling for headings */
+.signup-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label and input field styling */
+.signup {
+  display: block; /* Align labels and inputs vertically */
+  margin-bottom: 15px; /* Add spacing between fields */
+}
+
+.signup input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Add padding for better usability */
+  font-size: 14px; /* Ensure readability */
+  border: 1px solid #ccc; /* Match border style */
+  border-radius: 4px; /* Add rounded corners */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Button styling */
+button {
+  padding: 10px; /* Add padding for better aesthetics */
+    width: 100px;
+    margin-top: 10px;
+    height: 50px;}

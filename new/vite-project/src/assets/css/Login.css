@@ -1,0 +1,43 @@
+/* General container styling */
+.login-container {
+
+  max-width: 400px; 
+  margin: 200px 50 0 auto; /* Center the login form on the page */
+  padding: 20px;
+  border: 1px solid #ccc; /* Subtle border for definition */
+  border-radius: 20px; /* Rounded corners for modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  background-color: #f9f9f9; /* Light background for readability */
+  font-family: Arial, sans-serif; /* Clean font */
+}
+
+/* Heading styling */
+.login-container h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label and input field styling */
+.login {
+  display: block; /* Stack elements vertically */
+  margin-bottom: 15px; /* Spacing between inputs */
+}
+
+.login input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Add padding for better usability */
+  font-size: 14px; /* Ensure readability */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Button styling */
+button {
+  padding: 10px; /* Add padding for better aesthetics */
+  width: 100px;
+  margin-top: 10px;
+  height: 50px;
+}
+
