@@ -1,43 +1,69 @@
-/* General container styling */
 .login-container {
-
-  max-width: 400px; 
-  margin: 200px 50 0 auto; /* Center the login form on the page */
-  padding: 20px;
-  border: 1px solid #ccc; /* Subtle border for definition */
-  border-radius: 20px; /* Rounded corners for modern look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  background-color: #f9f9f9; /* Light background for readability */
-  font-family: Arial, sans-serif; /* Clean font */
+  max-width: 400px;
+  margin: 150px auto 0 auto;
+  padding: 30px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 }
 
-/* Heading styling */
 .login-container h3 {
   text-align: center;
-  color: #333;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login {
+  display: block;
   margin-bottom: 20px;
 }
 
-/* Label and input field styling */
-.login {
-  display: block; /* Stack elements vertically */
-  margin-bottom: 15px; /* Spacing between inputs */
-}
-
 .login input {
-  width: 100%; /* Full width for inputs */
-  padding: 10px; /* Add padding for better usability */
-  font-size: 14px; /* Ensure readability */
-  border: 1px solid #ccc; /* Border style */
-  border-radius: 4px; /* Rounded corners */
-  box-sizing: border-box; /* Include padding in the width */
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Button styling */
+.login input:focus {
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 button {
-  padding: 10px; /* Add padding for better aesthetics */
-  width: 100px;
-  margin-top: 10px;
-  height: 50px;
+  padding: 12px 20px;
+  width: 100%;
+  margin-top: 15px;
+  height: auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2575fc;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+button:hover {
+  background-color: #6a11cb;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

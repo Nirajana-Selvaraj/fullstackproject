@@ -1,40 +1,69 @@
-/* General container styling */
-.signup-container {
-  max-width: 400px; /* Restrict maximum width for the form */
-  margin: 20px auto; /* Center the form */
-  padding: 20px;
-  border: 1px solid #ccc; /* Add a subtle border */
-  border-radius: 8px; /* Round the corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
-  background-color: #f9f9f9; /* Light background for better readability */
-  font-family: Arial, sans-serif; /* Use a clean font */
-}
 
-/* Styling for headings */
+.signup-container {
+  max-width: 450px; 
+  margin: 50px auto; 
+  padding: 25px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(145deg, #ff7eb3, #ff758c); 
+  font-family: 'Poppins', sans-serif; 
+  color: #ffffff; 
+}
 .signup-container h2 {
   text-align: center;
-  color: #333;
-  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
-/* Label and input field styling */
+
 .signup {
-  display: block; /* Align labels and inputs vertically */
-  margin-bottom: 15px; /* Add spacing between fields */
+  display: block; 
+  margin-bottom: 20px; 
 }
 
 .signup input {
-  width: 100%; /* Full width for inputs */
-  padding: 10px; /* Add padding for better usability */
-  font-size: 14px; /* Ensure readability */
-  border: 1px solid #ccc; /* Match border style */
-  border-radius: 4px; /* Add rounded corners */
-  box-sizing: border-box; /* Include padding and border in the width */
+  width: 100%; 
+  padding: 12px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 6px; 
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: #333; 
+  box-sizing: border-box; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Button styling */
+.signup input:focus {
+  outline: none; 
+  background-color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
 button {
-  padding: 10px; /* Add padding for better aesthetics */
-    width: 100px;
-    margin-top: 10px;
-    height: 50px;}
+  padding: 12px 20px; 
+  width: 100%; 
+  margin-top: 15px;
+  font-size: 16px; 
+  font-weight: bold; 
+  color: #ffffff; 
+  background-color: #ff758c; 
+  border: none; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+button:hover {
+  background-color: #ff5274; 
+  transform: scale(1.05); 
+}
+
+button:active {
+  transform: scale(1); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
